@@ -1,5 +1,5 @@
 const express = require("express");
- require("./db/connection");
+ require("./connection");
 const SongsApi = require("./models/songs");
 const router = require("./routers/server")
 
