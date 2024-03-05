@@ -1,7 +1,7 @@
 const express = require("express");
  require("./connection");
-const SongsApi = require("./models/songs");
-const router = require("./routers/server")
+const SongsApi = require("./songs");
+const router = require("./server")
 
 const app = express();
 app.use(express.json());
